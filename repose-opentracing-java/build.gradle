@@ -1,10 +1,20 @@
 apply plugin: 'java'
 apply plugin: 'idea'
+apply plugin: 'checkstyle'
+
 
 jar {
     baseName = 'opentracing'
     group = 'org.openrepose.contrib'
     version =  '0.0.1'
+}
+
+checkstyle {
+    toolVersion "7.6.1"
+}
+
+checkstyleMain {
+    source = sourceSets.main.allSource
 }
 
 repositories {
