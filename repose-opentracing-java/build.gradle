@@ -13,9 +13,6 @@ repositories {
     maven {
         url "https://maven.research.rackspacecloud.com/content/groups/aggregate/"
     }
-    maven {
-        url 'https://build.shibboleth.net/nexus/content/repositories/releases'
-    }
 }
 
 sourceCompatibility = 1.8
