@@ -1,2 +1,2 @@
 language: java
-script: repose-opentracing-java/gradlew check
+script: repose-opentracing-java/gradlew -p repose-opentracing-java check
