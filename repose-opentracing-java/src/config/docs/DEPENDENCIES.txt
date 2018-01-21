@@ -1,0 +1,25 @@
+Original files contained with this distribution of Repose OpenTracing contrib are licensed under
+the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0).
+
+You must agree to the terms of this license and abide by them before using,
+modifying, or distributing Repose OpenTracing contrib or the Repose OpenTracing contrib source code contained within
+this distribution.
+
+Repose OpenTracing contrib has a number of dependencies that are covered by separate licenses, listed below.
+
+By using, modifying, or distributing Repose OpenTracing contrib you may also be subject to the
+terms of those licenses.
+
+Below is the full list of dependencies.
+
+By contributing to this project, you agree to abide to the terms and conditions
+outlined in CONTRIBUTORS.txt.
+
+Group                                     Name                     Version         Licenses                           Source
+----------------------------------------- ------------------------ --------------- --------------------------- ----------------------------------------------------------------------
+com.fasterxml.jackson.core                jackson-databind         2.9.3           Apache License Version 2.0  http://wiki.fasterxml.com/JacksonDownload
+io.opentracing                            opentracing-api          0.30.0          Apache License Version 2.0  https://github.com/opentracing/opentracing-java
+javax.servlet                             javax.servlet-api        3.1.0           CDDL 2                      https://javaee.github.io/servlet-spec/
+org.json                                  json                     20171018        Apache License Version 2.0  https://github.com/douglascrockford/JSON-java
+org.apache.commons                        commons-lang3            3.3.7           Apache License Version 2.0  http://projects.apache.org/projects/commons_lang.html
+org.openrepose                            commons-utilities        8.7.3.0         Apache License Version 2.0  https://github.com/rackerlabs/repose
